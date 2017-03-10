@@ -1,0 +1,24 @@
+{
+  "name": "Try-Hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "eslint": "^3.17.1",
+    "hapi": "^16.1.0",
+    "joi": "^10.2.2",
+    "mongoose": "^4.8.6",
+    "nodemon": "^1.11.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  }
+}
