@@ -10,15 +10,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "boom": "^4.2.0",
     "eslint": "^3.17.1",
     "hapi": "^16.1.0",
     "joi": "^10.2.2",
+    "jsonwebtoken": "^7.3.0",
     "mongoose": "^4.8.6",
+    "node-inspector": "^0.12.10",
+    "nodemailer": "^3.1.5",
     "nodemon": "^1.11.0",
+    "random-token": "0.0.8",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "eslint": "^3.17.1"
+    "eslint": "^3.17.1",
+    "letter-opener": "^1.0.2"
   }
 }
