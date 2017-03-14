@@ -10,5 +10,11 @@ module.exports = {
     db: 'HapiTest',
     username: '',
     password: ''
-  }
+  },
+  jwt: {
+    secretKey: 'secretissecret',
+    tokenExpiryDuration: 100 * 60 * 60 // 100 hours
+  },
+  forgetPassLink: '/recover_password',
+  fromEmail: 'utkarsh.rai@codebrahma.com'
 }
