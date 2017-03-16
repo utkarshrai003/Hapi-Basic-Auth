@@ -6,8 +6,8 @@ const randomToken = require('random-token');
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'stealout@gmail.com', // TEST ACCOUNT. WILL BE ADIDNG MAILGUN SOON
-    pass: 'IDENTITY'
+    user: 'mr.divyanshbpl@gmail.com', // TEST ACCOUNT. WILL BE ADIDNG MAILGUN SOON
+    pass: ' heritage'
   }
 });
 
