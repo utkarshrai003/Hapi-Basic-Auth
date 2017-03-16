@@ -14,4 +14,4 @@ deployment:
     branch: master
     commands:
       - bash ./setup-eb.sh
-      - eb deploy --profile default
+      - eb deploy
