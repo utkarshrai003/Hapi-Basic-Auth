@@ -4,7 +4,8 @@ machine:
 
 dependencies:
   pre:
-    - sudo yum install aws-cli
+    - sudo apt-get install python-dev
+    - sudo pip install awsebcli 
 
 deployment:
   development:
