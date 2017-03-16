@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   pre:
-    - sudo pip install 'awsebcli==3.7.4' --force-reinstall
+    - sudo yum install aws-cli
 
 deployment:
   development:
