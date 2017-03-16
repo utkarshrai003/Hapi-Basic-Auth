@@ -20,14 +20,6 @@ touch /home/ubuntu/.aws/config
 # give permission
 chmod 600 /home/ubuntu/.aws/config
 
-echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-echo "AWS ACCESS KEY ID"
-echo $AWS_ACCESS_KEY_ID
-
-echo "AWS SECRET KEY"
-echo $AWS_SECRET_KEY
-echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
-
 # Creating Profile
 echo "[profile myProfile]" >> /home/ubuntu/.aws/config
 echo "aws_access_key_id" = $AWS_ACCESS_KEY_ID >> /home/ubuntu/.aws/config
